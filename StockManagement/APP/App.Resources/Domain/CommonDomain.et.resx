@@ -1,0 +1,149 @@
+﻿<root>
+    <resheader name="resmimetype">
+        <value>text/microsoft-resx</value>
+    </resheader>
+    <resheader name="version">
+        <value>1.3</value>
+    </resheader>
+    <resheader name="reader">
+        <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    </resheader>
+    <resheader name="writer">
+        <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    </resheader>
+    <data name="CreatedAt" xml:space="preserve">
+        <value>Loodud</value>
+    </data>
+    <data name="EndedAt" xml:space="preserve">
+        <value>Lõpetatud</value>
+    </data>
+    <data name="Name" xml:space="preserve">
+        <value>Nimi</value>
+    </data>
+    <data name="Actions" xml:space="preserve">
+        <value>Tegevused</value>
+    </data>
+    <data name="Inventories" xml:space="preserve">
+        <value>Laod</value>
+    </data>
+    <data name="Suppliers" xml:space="preserve">
+        <value>Tarnijad</value>
+    </data>
+    <data name="Status" xml:space="preserve">
+        <value>Olek</value>
+    </data>
+    <data name="ApprovedAt" xml:space="preserve">
+        <value>Kinnitatud kuupäeval</value>
+    </data>
+    <data name="Action" xml:space="preserve">
+        <value>Tegevus</value>
+    </data>
+    <data name="ActionType" xml:space="preserve">
+        <value>Tegevuse tüüp</value>
+    </data>
+    <data name="Product" xml:space="preserve">
+        <value>Toode</value>
+    </data>
+    <data name="Reason" xml:space="preserve">
+        <value>Põhjus</value>
+    </data>
+    <data name="StockAudit" xml:space="preserve">
+        <value>Lao inventuur</value>
+    </data>
+    <data name="Supplier" xml:space="preserve">
+        <value>Tarnija</value>
+    </data>
+    <data name="User" xml:space="preserve">
+        <value>Kasutaja</value>
+    </data>
+    <data name="Quantity" xml:space="preserve">
+        <value>Kogus</value>
+    </data>
+    <data name="LastUpdated" xml:space="preserve">
+        <value>Viimati uuendatud</value>
+    </data>
+    <data name="StorageRoom" xml:space="preserve">
+        <value>Lao ruum</value>
+    </data>
+    <data name="Address" xml:space="preserve">
+        <value>Aadress</value>
+    </data>
+    <data name="StorageRoomInInventories" xml:space="preserve">
+        <value>Lao ruum üld ladudes</value>
+    </data>
+    <data name="FromStockMovements" xml:space="preserve">
+        <value>Lao liikumisest</value>
+    </data>
+    <data name="ToStockMovements" xml:space="preserve">
+        <value>Lao liikumisse</value>
+    </data>
+    <data name="ProductInStorageRooms" xml:space="preserve">
+        <value>Toode lao ruumides</value>
+    </data>
+    <data name="Products" xml:space="preserve">
+        <value>Tooted</value>
+    </data>
+    <data name="Code" xml:space="preserve">
+        <value>Kood</value>
+    </data>
+    <data name="StockMovement" xml:space="preserve">
+        <value>Lao liikumine</value>
+    </data>
+    <data name="Role" xml:space="preserve">
+        <value>Roll</value>
+    </data>
+    <data name="RoleClaim" xml:space="preserve">
+        <value>Rolli taotlus</value>
+    </data>
+    <data name="UserClaim" xml:space="preserve">
+        <value>Kasutaja taotlus</value>
+    </data>
+    <data name="UserLogin" xml:space="preserve">
+        <value>Kasutaja logimine</value>
+    </data>
+    <data name="UserRole" xml:space="preserve">
+        <value>Kasutaja roll</value>
+    </data>
+    <data name="UserToken" xml:space="preserve">
+        <value>Kasutaja token</value>
+    </data>
+    <data name="FromStorageRoom" xml:space="preserve">
+        <value>lao ruumist</value>
+    </data>
+    <data name="ToStorageRoom" xml:space="preserve">
+        <value>Lao ruumi</value>
+    </data>
+    <data name="FromInventory" xml:space="preserve">
+        <value>Laost</value>
+    </data>
+    <data name="ToInventory" xml:space="preserve">
+        <value>Lattu</value>
+    </data>
+    <data name="StockAudits" xml:space="preserve">
+        <value>Lao inventuurid</value>
+    </data>
+    <data name="CurrentStocks" xml:space="preserve">
+        <value>Hetke seisud?</value>
+    </data>
+    <data name="StorageRoomInInventory" xml:space="preserve">
+        <value>Lao ruum üld laos</value>
+    </data>
+    <data name="Inventory" xml:space="preserve">
+        <value>Ladu</value>
+    </data>
+    <data name="ApprovalRequests" xml:space="preserve">
+        <value>Kinnitus taotlused</value>
+    </data>
+    <data name="ProductCategory" xml:space="preserve">
+        <value>Toote kategooria</value>
+    </data>
+    <data name="ProductInStorageRoom" xml:space="preserve">
+        <value>Toode lao ruumis</value>
+    </data>
+    <data name="FromStockMovement" xml:space="preserve">
+        <value>Lao liikumisest</value>
+    </data>
+    <data name="ToStockMovement" xml:space="preserve">
+        <value>Lao liikumisse</value>
+    </data>
+</root>

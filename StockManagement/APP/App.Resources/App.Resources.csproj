@@ -1,0 +1,159 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net9.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <EmbeddedResource Update="Domain\ActionType.resx">
+        <Generator>PublicResXFileCodeGenerator</Generator>
+        <LastGenOutput>ActionType.Designer.cs</LastGenOutput>
+      </EmbeddedResource>
+      <EmbeddedResource Update="Domain\CommonDomain.resx">
+        <Generator>PublicResXFileCodeGenerator</Generator>
+        <LastGenOutput>CommonDomain.Designer.cs</LastGenOutput>
+      </EmbeddedResource>
+      <EmbeddedResource Update="Domain\Address.resx">
+        <Generator>PublicResXFileCodeGenerator</Generator>
+        <LastGenOutput>Address.Designer.cs</LastGenOutput>
+      </EmbeddedResource>
+      <EmbeddedResource Update="Domain\ApprovalRequests.resx">
+        <Generator>PublicResXFileCodeGenerator</Generator>
+        <LastGenOutput>ApprovalRequests.Designer.cs</LastGenOutput>
+      </EmbeddedResource>
+      <EmbeddedResource Update="Domain\Inventory.resx">
+        <Generator>PublicResXFileCodeGenerator</Generator>
+        <LastGenOutput>Inventory.Designer.cs</LastGenOutput>
+      </EmbeddedResource>
+      <EmbeddedResource Update="Domain\Product.resx">
+        <Generator>PublicResXFileCodeGenerator</Generator>
+        <LastGenOutput>Product.Designer.cs</LastGenOutput>
+      </EmbeddedResource>
+      <EmbeddedResource Update="Domain\ProductCategory.resx">
+        <Generator>PublicResXFileCodeGenerator</Generator>
+        <LastGenOutput>ProductCategory.Designer.cs</LastGenOutput>
+      </EmbeddedResource>
+      <EmbeddedResource Update="Domain\ProductInStorageRoom.resx">
+        <Generator>PublicResXFileCodeGenerator</Generator>
+        <LastGenOutput>ProductInStorageRoom.Designer.cs</LastGenOutput>
+      </EmbeddedResource>
+      <EmbeddedResource Update="Domain\Reason.resx">
+        <Generator>PublicResXFileCodeGenerator</Generator>
+        <LastGenOutput>Reason.Designer.cs</LastGenOutput>
+      </EmbeddedResource>
+      <EmbeddedResource Update="Domain\StockMovement.resx">
+        <Generator>PublicResXFileCodeGenerator</Generator>
+        <LastGenOutput>StockMovement.Designer.cs</LastGenOutput>
+      </EmbeddedResource>
+      <EmbeddedResource Update="Domain\StorageRoom.resx">
+        <Generator>PublicResXFileCodeGenerator</Generator>
+        <LastGenOutput>StorageRoom.Designer.cs</LastGenOutput>
+      </EmbeddedResource>
+      <EmbeddedResource Update="Domain\Supplier.resx">
+        <Generator>PublicResXFileCodeGenerator</Generator>
+        <LastGenOutput>Supplier.Designer.cs</LastGenOutput>
+      </EmbeddedResource>
+      <EmbeddedResource Update="Domain\ActionType.et.resx">
+        <DependentUpon>ActionType.resx</DependentUpon>
+      </EmbeddedResource>
+      <EmbeddedResource Update="Domain\Address.et.resx">
+        <DependentUpon>Address.resx</DependentUpon>
+      </EmbeddedResource>
+      <EmbeddedResource Update="Domain\ApprovalRequests.et.resx">
+        <DependentUpon>ApprovalRequests.resx</DependentUpon>
+      </EmbeddedResource>
+      <EmbeddedResource Update="Domain\CommonDomain.et.resx">
+        <DependentUpon>CommonDomain.resx</DependentUpon>
+      </EmbeddedResource>
+      <EmbeddedResource Update="Domain\Inventory.et.resx">
+        <DependentUpon>Inventory.resx</DependentUpon>
+      </EmbeddedResource>
+      <EmbeddedResource Update="Domain\Product.et.resx">
+        <DependentUpon>Product.resx</DependentUpon>
+      </EmbeddedResource>
+      <EmbeddedResource Update="Domain\ProductCategory.et.resx">
+        <DependentUpon>ProductCategory.resx</DependentUpon>
+      </EmbeddedResource>
+      <EmbeddedResource Update="Domain\ProductInStorageRoom.et.resx">
+        <DependentUpon>ProductInStorageRoom.resx</DependentUpon>
+      </EmbeddedResource>
+      <EmbeddedResource Update="Domain\Reason.et.resx">
+        <DependentUpon>Reason.resx</DependentUpon>
+      </EmbeddedResource>
+      <EmbeddedResource Update="Domain\StockMovement.et.resx">
+        <DependentUpon>StockMovement.resx</DependentUpon>
+      </EmbeddedResource>
+      <EmbeddedResource Update="Domain\StorageRoom.et.resx">
+        <DependentUpon>StorageRoom.resx</DependentUpon>
+      </EmbeddedResource>
+      <EmbeddedResource Update="Domain\Supplier.et.resx">
+        <DependentUpon>Supplier.resx</DependentUpon>
+      </EmbeddedResource>
+    </ItemGroup>
+
+    <ItemGroup>
+      <Compile Update="Domain\ActionType.Designer.cs">
+        <DesignTime>True</DesignTime>
+        <AutoGen>True</AutoGen>
+        <DependentUpon>ActionType.resx</DependentUpon>
+      </Compile>
+      <Compile Update="Domain\CommonDomain.Designer.cs">
+        <DesignTime>True</DesignTime>
+        <AutoGen>True</AutoGen>
+        <DependentUpon>CommonDomain.resx</DependentUpon>
+      </Compile>
+      <Compile Update="Domain\Address.Designer.cs">
+        <DesignTime>True</DesignTime>
+        <AutoGen>True</AutoGen>
+        <DependentUpon>Address.resx</DependentUpon>
+      </Compile>
+      <Compile Update="Domain\ApprovalRequests.Designer.cs">
+        <DesignTime>True</DesignTime>
+        <AutoGen>True</AutoGen>
+        <DependentUpon>ApprovalRequests.resx</DependentUpon>
+      </Compile>
+      <Compile Update="Domain\Inventory.Designer.cs">
+        <DesignTime>True</DesignTime>
+        <AutoGen>True</AutoGen>
+        <DependentUpon>Inventory.resx</DependentUpon>
+      </Compile>
+      <Compile Update="Domain\Product.Designer.cs">
+        <DesignTime>True</DesignTime>
+        <AutoGen>True</AutoGen>
+        <DependentUpon>Product.resx</DependentUpon>
+      </Compile>
+      <Compile Update="Domain\ProductCategory.Designer.cs">
+        <DesignTime>True</DesignTime>
+        <AutoGen>True</AutoGen>
+        <DependentUpon>ProductCategory.resx</DependentUpon>
+      </Compile>
+      <Compile Update="Domain\ProductInStorageRoom.Designer.cs">
+        <DesignTime>True</DesignTime>
+        <AutoGen>True</AutoGen>
+        <DependentUpon>ProductInStorageRoom.resx</DependentUpon>
+      </Compile>
+      <Compile Update="Domain\Reason.Designer.cs">
+        <DesignTime>True</DesignTime>
+        <AutoGen>True</AutoGen>
+        <DependentUpon>Reason.resx</DependentUpon>
+      </Compile>
+      <Compile Update="Domain\StockMovement.Designer.cs">
+        <DesignTime>True</DesignTime>
+        <AutoGen>True</AutoGen>
+        <DependentUpon>StockMovement.resx</DependentUpon>
+      </Compile>
+      <Compile Update="Domain\StorageRoom.Designer.cs">
+        <DesignTime>True</DesignTime>
+        <AutoGen>True</AutoGen>
+        <DependentUpon>StorageRoom.resx</DependentUpon>
+      </Compile>
+      <Compile Update="Domain\Supplier.Designer.cs">
+        <DesignTime>True</DesignTime>
+        <AutoGen>True</AutoGen>
+        <DependentUpon>Supplier.resx</DependentUpon>
+      </Compile>
+    </ItemGroup>
+
+</Project>
